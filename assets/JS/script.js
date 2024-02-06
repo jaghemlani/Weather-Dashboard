@@ -1,3 +1,7 @@
+//Used the following sources to help me create my code. 
+//https://coding-boot-camp.github.io/full-stack/apis/how-to-use-api-keys
+//https://openweathermap.org/forecast5
+
 //for search button and to fetch weather and forecast
 document.getElementById('search').addEventListener('click', function() {
     var city = document.getElementById('city').value;
