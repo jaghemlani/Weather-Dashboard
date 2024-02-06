@@ -1,0 +1,58 @@
+body, html {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #e4e4e4;
+}
+
+.container {
+    display: flex;
+    flex-direction: row-reverse; /* Reverse the order to put sidebar on the right */
+    align-items: flex-start;
+}
+
+.sidebar {
+    width: 30%;
+    padding: 20px;
+}
+
+.results {
+    flex-grow: 1; /* Take remaining space */
+    padding: 20px;
+}
+
+header {
+    background: #007bff;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+#search-section {
+    text-align: center;
+}
+
+#city-input {
+    padding: 10px;
+    width: calc(100% - 20px); /* Adjust width to fit button */
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+#search-btn {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px; /* Add some space above the button */
+    cursor: pointer;
+}
+
+#current-weather, #forecast-title, #forecast {
+    text-align: center;
+}
+
+.forecast-item {
+    display: inline-block;
+    margin: 10px;
+    padding: 20px;
+    background: #007bff;
+    color: white;
+}
