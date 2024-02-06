@@ -32,17 +32,20 @@ header {
     text-align: center;
 }
 
-#city-input {
-    padding: 10px;
-    width: calc(100% - 20px); /* Adjust width to fit button */
-    box-sizing: border-box; /* Include padding in width calculation */
+#city {
+    padding: 15px; /* Increased padding */
+    font-size: 18px; /* Larger font size */
+    width: 70%; /* Adjusted width for better visibility */
+    margin-right: 10px;
+    box-sizing: border-box; /* Ensure padding doesn't affect overall width */
 }
 
-#search-btn {
-    width: 100%;
-    padding: 10px;
-    margin-top: 10px; /* Add some space above the button */
+#search {
+    padding: 15px 20px; /* Increased padding for a larger button */
+    font-size: 18px; /* Matching font size to input */
     cursor: pointer;
+    width: auto; /* Adjust width as needed or keep it auto */
+    margin-top: 10px; /* Maintain spacing */
 }
 
 #current-weather, #forecast-title, #forecast {
